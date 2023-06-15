@@ -1,0 +1,23 @@
+h1,h2 {
+    color: blue;
+    font-size: 30px;
+    margin: 30px;
+}
+p{
+    margin: 50px;
+}
+.title{
+    color: blueviolet;
+    font-size: 40px;
+}
+.box {
+    margin-top: 30px;
+    border: 2px dashed blueviolet;
+    width: 200px;
+    padding: 30px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}

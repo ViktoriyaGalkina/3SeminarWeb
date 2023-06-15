@@ -1,0 +1,43 @@
+h1,h2 {
+    color: blue;
+    font-size: 30px;
+    margin: 30px;
+}
+p{
+    margin: 50px;
+}
+.title{
+    color: blueviolet;
+    font-size: 40px;
+}
+.boxWrapper {
+    margin-top: 30px;
+    display: flex;
+}
+.box {
+    border: 2px dashed blueviolet;
+    width: 200px;
+    padding: 30px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 500px;
+    margin-top: 30px;
+}
+.active {
+    color:darkgreen;
+}
+button {
+    width: 250px;
+    height: 100px;
+}
+.button {
+    color:coral;
+    width: 250px;
+    height: 100px;
+}
+/* #el1 {
+    color: brown;
+} */

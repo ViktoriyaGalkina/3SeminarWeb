@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Подключили стили -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>2Seminar</title>
+</head>
+<body>
+    <!-- Создали тег h1 -->
+    <section>
+        <h1 class="title" id="el1">Аналитик маркетплейсов. Моя рабочая страница.</h1>
+        <h2 class="title" id="btn1">Мои услуги:</h2>
+        <!-- solid - сплошной -->
+        <div class="boxWrapper">
+         <div class="box">
+            <p id="text">Анализ ниши</p>
+        </div>
+        <div class="box">
+            <p>Анализ конкурентов</p>
+        </div>
+        </div>
+        <div class="image">
+            <img src="https://static.riafan.ru/upload/images/2022/11/24/1068123_full.jpeg" width="450" height="300">
+        </div>
+        <li class="itemList">
+            <a href="https://www.wildberries.ru/">Ссылка на Wildberries</a>
+        </li>
+        <button id="btn">Изменить цвет и текст названия</button>
+        <button class="btn1">Изменить цвет Моих услуг</button>
+        <button class="text">Поменять цвет и текст элемента Анализ ниши</button>
+    </section>
+
+    <!-- scripts -->
+
+     <!-- <script>
+        alert("Привет мир!");
+    </script> -->
+
+    <script>
+        let name = prompt("Введите свое имя:", "Вас зовут...");
+        alert(`Привет, ${name}!`);
+    </script>
+
+    <script>
+        let age = prompt("Сколько вам лет?");
+
+        switch (age){
+            case '18':
+            alert('Вы совершеннолетний, все можно!');
+            break;
+            case '10':
+            alert('Вам надо учить уроки!');
+            break;
+            case '30':
+            alert('Ложитесь спать, завтра на работу');
+            break;
+            default:
+            alert('Мы не знаем, что вам делать');        
+        }
+    </script>
+    
+    <!-- <script>
+        let age = prompt("Сколько вам лет?");
+        
+        if (age == 18) {
+        alert('Вы совершеннолетний, все можно!');
+        } else if (age == 10) {
+        alert('Вам надо учить уроки!');
+        } else if (age == 30) {
+        alert('Ложитесь спать, завтра на работу');
+        } else {
+        alert('Мы не знаем, что вам делать');
+        }
+        </script> -->
+
+    <script defer src="./assets/scripts/script.js"></script>
+
+</body>
+</html>
