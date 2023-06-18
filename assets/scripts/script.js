@@ -39,3 +39,24 @@ function clickButton2() {
 let text = document.getElementsByClassName('text');
 console.log(text);
 text[0].addEventListener('click', clickButton2);
+
+
+// function changedLi() {
+//     let element = document.getElementById('p');
+//     element.classList.toggle('button');
+
+    // // смена всех элементов ul li
+    // let ul = document.getElementsByTagName('li');
+    // // для того, чтобы дальше перебрать
+    // let arr = Array.from(ul);
+    // // перебор каждого элемента
+    // arr.forEach((element) => {
+    //     element.classList.toggle('active');
+    // })
+// }
+// let btn = document.getElementById('btn');
+// btn.addEventListener('click', clickButton);
+
+// let btn2 = document.getElementsByClassName('btn1');
+// btn2[0].addEventListener('click', clickButton);
+// btn2[1].addEventListener('click', changedLi);
